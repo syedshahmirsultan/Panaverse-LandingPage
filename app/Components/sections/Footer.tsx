@@ -27,9 +27,9 @@ function Footer() {
   <div className=" border border-t-primary border-b-0 border-l-0 border-r-0 w-full flex flex-col md:items-center  gap-y-6">
       <h1 className="text-primary text-4xl font-bold">Follow on</h1>
       <div className="flex flex-wrap gap-x-4 gap-y-auto">
-      {images.map(item =>{
+      {images.map((item,i) =>{
         return(
-          <Image src={item.src} alt={item.alt} className='h-14 w-auto rounded-full cursor-pointer'/>
+          <Image src={item.src} alt={item.alt} key={i} className='h-14 w-auto rounded-full cursor-pointer'/>
         )
       })}
       </div>
