@@ -43,9 +43,3 @@ function Outcome() {
 
 export default Outcome;
             
-            
-            </Wrapper></section>
-  )
-}
-
-export default Outcome;
