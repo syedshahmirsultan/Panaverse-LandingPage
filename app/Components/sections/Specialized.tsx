@@ -94,7 +94,7 @@ function Specialized() {
             ))}
           </div>
         </div>
-        <div></div>
+        <div className='h-screen'></div>
       </Wrapper>
     </section>
   );
