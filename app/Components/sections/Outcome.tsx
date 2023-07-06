@@ -5,7 +5,7 @@ const outcomePoints=["Product Ownership","Freeelancing","Global Marketing by Pan
 
 function Outcome() {
   return (
-    <section className="mt-6 md:mt-10 md:mb-24">
+    <section className="mt-16 md:mt-28 md:mb-24 h-screen">
         <Wrapper><div className="flex flex-col my-8 md:my-0 md:flex-row gap-x-8">
 <div className="flex-1 ">
 <Image src="/images/outcome-poster.png" alt="Outcome Poster" height={200} width={150} className='h-full w-full'/>
