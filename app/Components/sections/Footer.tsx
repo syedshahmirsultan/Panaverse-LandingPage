@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image'
 const images=[
   {
   src :"/images/facebook.png",
@@ -28,7 +29,7 @@ function Footer() {
       <div className="flex flex-wrap gap-x-4 gap-y-auto">
       {images.map(item =>{
         return(
-          <img src={item.src} alt={item.alt} className='h-14 w-auto rounded-full cursor-pointer'/>
+          <Image src={item.src} alt={item.alt} className='h-14 w-auto rounded-full cursor-pointer'/>
         )
       })}
       </div>
