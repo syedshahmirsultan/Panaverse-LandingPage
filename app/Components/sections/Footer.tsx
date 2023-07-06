@@ -25,7 +25,7 @@ function Footer() {
   return (
     <section className="my-[40px] font-extralight">
   <div className=" border border-t-primary border-t-bold border-b-0 border-l-0 border-r-0 w-full flex flex-col md:items-center  gap-y-6">
-      <h1 className="text-primary text-2xl font-bold">Follow on</h1>
+      <h1 className=" text-3xl font-bold">Follow on</h1>
       <div className="flex flex-wrap gap-x-3 gap-y-auto">
       {images.map((item,i) =>{
         return(
