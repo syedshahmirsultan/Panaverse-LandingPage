@@ -34,7 +34,7 @@ function Footer() {
       })}
       </div>
      <br/> <Link href="https://www.linkedin.com/in/syed-shahmir-sultan-578730252/">
-       <h3 className="text-xl font-abold mx-auto justify-end">Copy By Syed Shahmir Sultan</h3></Link>
+       <h3 className="text-xl font-bold mx-auto justify-end">Copy By Syed Shahmir Sultan</h3></Link>
       
         </div>
     </section>
