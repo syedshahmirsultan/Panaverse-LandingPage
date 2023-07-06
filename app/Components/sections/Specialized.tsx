@@ -129,8 +129,8 @@ function Specialized() {
         <div className="mt-10 flex flex-col-reverse lg:flex-row">
         <div className="self-start sticky top-28 bg-white basis-8/12 shadow-xl rounded-xl border border-slate-200 py-16 px-16 h-auto">
         <h4 className="text-primary text-2xl font-medium ">Specialized Track</h4>
-        <h3 className="text-2xl font-bold">{selectedItemData.header}</h3>
-        <p className="text-xl text-slate-600 mt-3 ">{selectedItemData.description}
+        <h3 className="text-2xl font-bold">{data.header}</h3>
+        <p className="text-xl text-slate-600 mt-3 ">{data.description}
 </p> <button className="text-primary font-bold underline text-xl mt-4 flex gap-x-2 items-end">Learn More
         <svg className="text-lg mb-1.5" width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1.00006 10.0368L6.06801 5.57117L1.09503 0.999994" stroke="#00616C" strokeWidth="2"/>
