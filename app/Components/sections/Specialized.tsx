@@ -130,7 +130,7 @@ function Specialized() {
           </p>
         </div>
         <div className="mt-10 flex flex-col-reverse lg:flex-row">
-          <div className="self-start sticky top-28 bg-white basis-8/12 shadow-xl rounded-xl border border-slate-200 py-16 px-16 h-auto">
+          <div className="self-start  bg-white basis-8/12 shadow-xl rounded-xl border border-slate-200 py-16 px-16 h-auto">
             <h4 className="text-primary text-2xl font-medium">Specialized Track</h4>
             <h3 className="text-2xl font-bold">{selectedItemData?.header}</h3>
             <p className="text-xl text-slate-600 mt-3">{selectedItemData?.description}</p>
