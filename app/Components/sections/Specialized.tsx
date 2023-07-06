@@ -119,7 +119,7 @@ const data=[
 
 function Specialized() {
   const [selectedItem,setSelectedItem]= useState("wmd");
-  const selectedItemData =data.find((item)=>item.slug === selectedItem);
+  const selectedItemData =data.filter((item)=>item.slug === selectedItem);
   return (
     <section>
     <Wrapper><div>
