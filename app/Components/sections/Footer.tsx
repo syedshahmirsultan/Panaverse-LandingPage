@@ -23,17 +23,18 @@ const images=[
 
 function Footer() {
   return (
-    <section className="my-[60px] font-extralight">
-  <div className=" border border-t-primary border-b-0 border-l-0 border-r-0 w-full flex flex-col md:items-center  gap-y-6">
-      <h1 className="text-primary text-4xl font-bold">Follow on</h1>
-      <div className="flex flex-wrap gap-x-4 gap-y-auto">
+    <section className="my-[40px] font-extralight">
+  <div className=" border border-t-primary border-t-bold border-b-0 border-l-0 border-r-0 w-full flex flex-col md:items-center  gap-y-6">
+      <h1 className="text-primary text-2xl font-bold">Follow on</h1>
+      <div className="flex flex-wrap gap-x-3 gap-y-auto">
       {images.map((item,i) =>{
         return(
-          <Image src={item.src} alt={item.alt} key={i} className='h-14 w-auto rounded-full cursor-pointer'/>
+          <Image src={item.src} alt={item.alt} key={i} className='h-10 w-auto rounded-full cursor-pointer'/>
         )
       })}
       </div>
-     <br/> <Link href="https://www.linkedin.com/in/syed-shahmir-sultan-578730252/"><h3 className="text-2xl font-extrabold mx-auto justify-end">Copy By Syed Shahmir Sultan</h3></Link>
+     <br/> <Link href="https://www.linkedin.com/in/syed-shahmir-sultan-578730252/">
+       <h3 className="text-xl font-abold mx-auto justify-end">Copy By Syed Shahmir Sultan</h3></Link>
       
         </div>
     </section>
